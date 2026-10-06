@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screens/tela_lista.dart';
+
 void main() {
   runApp(const FlutterdexApp());
 }
@@ -15,20 +17,7 @@ class FlutterdexApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
       ),
-      home: const HomeScreen(),
-    );
-  }
-}
-
-// Tela temporária só para validar que tudo funciona.
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Flutterdex')),
-      body: const Center(child: Text('Bem-vindo à Flutterdex!')),
+      home: const TelaLista(),
     );
   }
 }

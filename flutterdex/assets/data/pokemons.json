@@ -1,0 +1,607 @@
+{
+    "pokemons": [
+        {
+        "id": 1,
+        "nome": "Bulbasaur",
+        "imagem": "assets/images/1.png",
+        "entrada": "Uma estranha semente foi plantada em suas costas desde que nasceu. Ela brota e cresce conforme ele fica mais forte.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Ivysaur",
+            "evoluiu_de": null,
+            "metodo": "nivel",
+            "nivel": 16,
+            "item": null
+        },
+        "batalha": {
+            "hp": 45,
+            "ataque": 49,
+            "defesa": 49,
+            "ataque_especial": 65,
+            "defesa_especial": 65,
+            "velocidade": 45,
+            "habilidades": [
+            "Overgrow"
+            ]
+        }
+        },
+        {
+        "id": 2,
+        "nome": "Ivysaur",
+        "imagem": "assets/images/2.png",
+        "entrada": "O bulbo em suas costas cresce tanto que ele precisa firmar bem as patas para não tombar. Quando absorve muito sol, o botão está perto de desabrochar.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": true,
+            "evolui_para": "Venusaur",
+            "evoluiu_de": "Bulbasaur",
+            "metodo": "nivel",
+            "nivel": 32,
+            "item": null
+        },
+        "batalha": {
+            "hp": 60,
+            "ataque": 62,
+            "defesa": 63,
+            "ataque_especial": 80,
+            "defesa_especial": 80,
+            "velocidade": 60,
+            "habilidades": [
+            "Overgrow"
+            ]
+        }
+        },
+        {
+        "id": 3,
+        "nome": "Venusaur",
+        "imagem": "assets/images/3.png",
+        "entrada": "A grande flor em suas costas transforma a luz do sol em energia. Quando está saudável, suas cores ficam vivas e o perfume suave acalma quem está por perto.",
+        "evolucao": {
+            "estagio": 3,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Ivysaur",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 80,
+            "ataque": 82,
+            "defesa": 83,
+            "ataque_especial": 100,
+            "defesa_especial": 100,
+            "velocidade": 80,
+            "habilidades": [
+            "Overgrow"
+            ]
+        }
+        },
+        {
+        "id": 4,
+        "nome": "Charmander",
+        "imagem": "assets/images/4.png",
+        "entrada": "Ele adora lugares quentes. A chama na ponta da cauda mostra sua saúde e seu humor: se ela se apagar, a vida dele corre perigo.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Charmeleon",
+            "evoluiu_de": null,
+            "metodo": "nivel",
+            "nivel": 16,
+            "item": null
+        },
+        "batalha": {
+            "hp": 39,
+            "ataque": 52,
+            "defesa": 43,
+            "ataque_especial": 60,
+            "defesa_especial": 50,
+            "velocidade": 65,
+            "habilidades": [
+            "Blaze"
+            ]
+        }
+        },
+        {
+        "id": 5,
+        "nome": "Charmeleon",
+        "imagem": "assets/images/5.png",
+        "entrada": "Tem temperamento agressivo. Balança a cauda em chamas e parte para cima do oponente com as garras afiadas. A chama fica mais forte quando ele se empolga.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": true,
+            "evolui_para": "Charizard",
+            "evoluiu_de": "Charmander",
+            "metodo": "nivel",
+            "nivel": 36,
+            "item": null
+        },
+        "batalha": {
+            "hp": 58,
+            "ataque": 64,
+            "defesa": 58,
+            "ataque_especial": 80,
+            "defesa_especial": 65,
+            "velocidade": 80,
+            "habilidades": [
+            "Blaze"
+            ]
+        }
+        },
+        {
+        "id": 6,
+        "nome": "Charizard",
+        "imagem": "assets/images/6.png",
+        "entrada": "Voa pelos céus em busca de oponentes fortes. Suas chamas ficam mais quentes depois de batalhas difíceis, e ele nunca ataca quem já está fraco.",
+        "evolucao": {
+            "estagio": 3,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Charmeleon",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 78,
+            "ataque": 84,
+            "defesa": 78,
+            "ataque_especial": 109,
+            "defesa_especial": 85,
+            "velocidade": 100,
+            "habilidades": [
+            "Blaze"
+            ]
+        }
+        },
+        {
+        "id": 7,
+        "nome": "Squirtle",
+        "imagem": "assets/images/7.png",
+        "entrada": "Quando se sente ameaçado, recolhe o corpo dentro do casco e dispara jatos de água pela boca. O casco é redondo e reduz o impacto dos golpes.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Wartortle",
+            "evoluiu_de": null,
+            "metodo": "nivel",
+            "nivel": 16,
+            "item": null
+        },
+        "batalha": {
+            "hp": 44,
+            "ataque": 48,
+            "defesa": 65,
+            "ataque_especial": 50,
+            "defesa_especial": 64,
+            "velocidade": 43,
+            "habilidades": [
+            "Torrent"
+            ]
+        }
+        },
+        {
+        "id": 8,
+        "nome": "Wartortle",
+        "imagem": "assets/images/8.png",
+        "entrada": "Sua cauda peluda e suas orelhas são símbolos de longevidade, e muitos o consideram um amuleto de sorte. Ele solta bolhas pelo nariz ao mergulhar.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": true,
+            "evolui_para": "Blastoise",
+            "evoluiu_de": "Squirtle",
+            "metodo": "nivel",
+            "nivel": 36,
+            "item": null
+        },
+        "batalha": {
+            "hp": 59,
+            "ataque": 63,
+            "defesa": 80,
+            "ataque_especial": 65,
+            "defesa_especial": 80,
+            "velocidade": 58,
+            "habilidades": [
+            "Torrent"
+            ]
+        }
+        },
+        {
+        "id": 9,
+        "nome": "Blastoise",
+        "imagem": "assets/images/9.png",
+        "entrada": "Os canhões em seu casco disparam jatos de água fortes o bastante para perfurar aço. Ele firma o corpo contra o adversário para mirar com precisão.",
+        "evolucao": {
+            "estagio": 3,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Wartortle",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 79,
+            "ataque": 83,
+            "defesa": 100,
+            "ataque_especial": 85,
+            "defesa_especial": 105,
+            "velocidade": 78,
+            "habilidades": [
+            "Torrent"
+            ]
+        }
+        },
+        {
+        "id": 10,
+        "nome": "Caterpie",
+        "imagem": "assets/images/10.png",
+        "entrada": "Come folhas sem parar e se prende às árvores com as ventosas das patas. A antena vermelha solta um cheiro forte para afastar inimigos.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Metapod",
+            "evoluiu_de": null,
+            "metodo": "nivel",
+            "nivel": 7,
+            "item": null
+        },
+        "batalha": {
+            "hp": 45,
+            "ataque": 30,
+            "defesa": 35,
+            "ataque_especial": 20,
+            "defesa_especial": 20,
+            "velocidade": 45,
+            "habilidades": [
+            "Shield Dust"
+            ]
+        }
+        },
+        {
+        "id": 11,
+        "nome": "Metapod",
+        "imagem": "assets/images/11.png",
+        "entrada": "Fica imóvel dentro de uma casca dura enquanto o corpo mole se transforma. Só consegue endurecer e esperar o momento de evoluir.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": true,
+            "evolui_para": "Butterfree",
+            "evoluiu_de": "Caterpie",
+            "metodo": "nivel",
+            "nivel": 10,
+            "item": null
+        },
+        "batalha": {
+            "hp": 50,
+            "ataque": 20,
+            "defesa": 55,
+            "ataque_especial": 25,
+            "defesa_especial": 25,
+            "velocidade": 30,
+            "habilidades": [
+            "Shed Skin"
+            ]
+        }
+        },
+        {
+        "id": 12,
+        "nome": "Butterfree",
+        "imagem": "assets/images/12.png",
+        "entrada": "Suas asas são cobertas por escamas que repelem a água, então ele voa até na chuva. Coleta mel e pólen em lugares distantes.",
+        "evolucao": {
+            "estagio": 3,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Metapod",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 60,
+            "ataque": 45,
+            "defesa": 50,
+            "ataque_especial": 80,
+            "defesa_especial": 80,
+            "velocidade": 70,
+            "habilidades": [
+            "Compound Eyes"
+            ]
+        }
+        },
+        {
+        "id": 13,
+        "nome": "Weedle",
+        "imagem": "assets/images/13.png",
+        "entrada": "Tem um ferrão venenoso na cabeça e vive em florestas e gramados, comendo folhas. Sua cor vistosa serve de aviso de que é perigoso.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Kakuna",
+            "evoluiu_de": null,
+            "metodo": "nivel",
+            "nivel": 7,
+            "item": null
+        },
+        "batalha": {
+            "hp": 40,
+            "ataque": 35,
+            "defesa": 30,
+            "ataque_especial": 20,
+            "defesa_especial": 20,
+            "velocidade": 50,
+            "habilidades": [
+            "Shield Dust"
+            ]
+        }
+        },
+        {
+        "id": 14,
+        "nome": "Kakuna",
+        "imagem": "assets/images/14.png",
+        "entrada": "Quase não se mexe, pendurado em árvores enquanto evolui. Por dentro o corpo está mudando muito, e por isso a casca fica quente.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": true,
+            "evolui_para": "Beedrill",
+            "evoluiu_de": "Weedle",
+            "metodo": "nivel",
+            "nivel": 10,
+            "item": null
+        },
+        "batalha": {
+            "hp": 45,
+            "ataque": 25,
+            "defesa": 50,
+            "ataque_especial": 25,
+            "defesa_especial": 25,
+            "velocidade": 35,
+            "habilidades": [
+            "Shed Skin"
+            ]
+        }
+        },
+        {
+        "id": 15,
+        "nome": "Beedrill",
+        "imagem": "assets/images/15.png",
+        "entrada": "Muito territorial, ataca em grupos usando os ferrões das patas e dos braços. É melhor não chegar perto do ninho.",
+        "evolucao": {
+            "estagio": 3,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Kakuna",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 65,
+            "ataque": 80,
+            "defesa": 40,
+            "ataque_especial": 45,
+            "defesa_especial": 80,
+            "velocidade": 75,
+            "habilidades": [
+            "Swarm"
+            ]
+        }
+        },
+        {
+        "id": 16,
+        "nome": "Pidgey",
+        "imagem": "assets/images/16.png",
+        "entrada": "Dócil, prefere fugir a lutar. Bate as asas contra o chão para levantar areia e se esconder dos inimigos.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Pidgeotto",
+            "evoluiu_de": null,
+            "metodo": "nivel",
+            "nivel": 18,
+            "item": null
+        },
+        "batalha": {
+            "hp": 40,
+            "ataque": 45,
+            "defesa": 40,
+            "ataque_especial": 35,
+            "defesa_especial": 35,
+            "velocidade": 56,
+            "habilidades": [
+            "Keen Eye",
+            "Tangled Feet"
+            ]
+        }
+        },
+        {
+        "id": 17,
+        "nome": "Pidgeotto",
+        "imagem": "assets/images/17.png",
+        "entrada": "Vigia seu território com olhos muito aguçados e voa por uma grande área à procura de presas, que captura com as garras fortes.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": true,
+            "evolui_para": "Pidgeot",
+            "evoluiu_de": "Pidgey",
+            "metodo": "nivel",
+            "nivel": 36,
+            "item": null
+        },
+        "batalha": {
+            "hp": 63,
+            "ataque": 60,
+            "defesa": 55,
+            "ataque_especial": 50,
+            "defesa_especial": 50,
+            "velocidade": 71,
+            "habilidades": [
+            "Keen Eye",
+            "Tangled Feet"
+            ]
+        }
+        },
+        {
+        "id": 18,
+        "nome": "Pidgeot",
+        "imagem": "assets/images/18.png",
+        "entrada": "Sua plumagem é bonita e a crista é imponente. Voa em alta velocidade e mergulha para capturar presas com as garras.",
+        "evolucao": {
+            "estagio": 3,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Pidgeotto",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 83,
+            "ataque": 80,
+            "defesa": 75,
+            "ataque_especial": 70,
+            "defesa_especial": 70,
+            "velocidade": 101,
+            "habilidades": [
+            "Keen Eye",
+            "Tangled Feet"
+            ]
+        }
+        },
+        {
+        "id": 19,
+        "nome": "Rattata",
+        "imagem": "assets/images/19.png",
+        "entrada": "É muito cauteloso e vive em qualquer lugar, reproduzindo-se rápido. Os dentes não param de crescer, então ele vive roendo coisas.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Raticate",
+            "evoluiu_de": null,
+            "metodo": "nivel",
+            "nivel": 20,
+            "item": null
+        },
+        "batalha": {
+            "hp": 30,
+            "ataque": 56,
+            "defesa": 35,
+            "ataque_especial": 25,
+            "defesa_especial": 35,
+            "velocidade": 72,
+            "habilidades": [
+            "Run Away",
+            "Guts"
+            ]
+        }
+        },
+        {
+        "id": 20,
+        "nome": "Raticate",
+        "imagem": "assets/images/20.png",
+        "entrada": "Suas presas afiadas crescem sem parar e roem até coisas duras. As patas de trás têm membranas que o ajudam a nadar.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Rattata",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 55,
+            "ataque": 81,
+            "defesa": 60,
+            "ataque_especial": 50,
+            "defesa_especial": 70,
+            "velocidade": 97,
+            "habilidades": [
+            "Run Away",
+            "Guts"
+            ]
+        }
+        },
+        {
+        "id": 21,
+        "nome": "Pichu",
+        "imagem": "assets/images/21.png",
+        "entrada": "Ainda não sabe controlar a eletricidade. Solta faíscas sem querer e leva choque quando ri ou se assusta.",
+        "evolucao": {
+            "estagio": 1,
+            "evolui": true,
+            "evolui_para": "Pikachu",
+            "evoluiu_de": null,
+            "metodo": "amizade",
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 20,
+            "ataque": 40,
+            "defesa": 15,
+            "ataque_especial": 35,
+            "defesa_especial": 35,
+            "velocidade": 60,
+            "habilidades": [
+            "Static"
+            ]
+        }
+        },
+        {
+        "id": 22,
+        "nome": "Pikachu",
+        "imagem": "assets/images/22.png",
+        "entrada": "Guarda eletricidade nas bochechas e a libera quando se sente ameaçado. Quando vários se juntam, podem causar tempestades com raios.",
+        "evolucao": {
+            "estagio": 2,
+            "evolui": true,
+            "evolui_para": "Raichu",
+            "evoluiu_de": "Pichu",
+            "metodo": "pedra",
+            "nivel": null,
+            "item": "Pedra do Trovão"
+        },
+        "batalha": {
+            "hp": 35,
+            "ataque": 55,
+            "defesa": 30,
+            "ataque_especial": 50,
+            "defesa_especial": 40,
+            "velocidade": 90,
+            "habilidades": [
+            "Static"
+            ]
+        }
+        },
+        {
+        "id": 23,
+        "nome": "Raichu",
+        "imagem": "assets/images/23.png",
+        "entrada": "Se acumula eletricidade demais, fica agitado e irritadiço. Usa a cauda para descarregar a energia no chão.",
+        "evolucao": {
+            "estagio": 3,
+            "evolui": false,
+            "evolui_para": null,
+            "evoluiu_de": "Pikachu",
+            "metodo": null,
+            "nivel": null,
+            "item": null
+        },
+        "batalha": {
+            "hp": 60,
+            "ataque": 90,
+            "defesa": 55,
+            "ataque_especial": 90,
+            "defesa_especial": 80,
+            "velocidade": 100,
+            "habilidades": [
+            "Static"
+            ]
+        }
+        }
+    ]
+}
