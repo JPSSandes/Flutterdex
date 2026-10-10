@@ -11,11 +11,17 @@ class FlutterdexApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final cores = ColorScheme.fromSeed(seedColor: Colors.white);
+
     return MaterialApp(
       title: 'Flutterdex',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
+        colorScheme: cores,
+        appBarTheme: AppBarTheme(
+          backgroundColor: cores.primary,
+          foregroundColor: cores.onPrimary,
+        ),
       ),
       home: const TelaLista(),
     );

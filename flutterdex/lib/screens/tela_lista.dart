@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../models/pokemon.dart';
 import '../services/pokemon_service.dart';
+import 'tela_detalhes.dart';
 
 class TelaLista extends StatelessWidget {
   const TelaLista({super.key});
+
+  String _formatarNumero(int id) {
+    return '#${id.toString().padLeft(3, '0')}';
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -23,13 +28,33 @@ class TelaLista extends StatelessWidget {
           final pokemons = snapshot.data!;
 
           return ListView.builder(
+            // Margem ao redor de toda a lista.
+            padding: const EdgeInsets.all(8),
             itemCount: pokemons.length,
             itemBuilder: (context, index) {
               final pokemon = pokemons[index];
 
-              return ListTile(
-                leading: Text('#${pokemon.id}'),
-                title: Text(pokemon.nome),
+              return Card(
+                child: ListTile(
+                  leading: Image.asset(pokemon.imagem, width: 56, height: 56),
+                  title: Text(
+                    pokemon.nome,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
+                  ),
+                  subtitle: Text(_formatarNumero(pokemon.id)),
+                  trailing: const Icon(Icons.chevron_right),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => TelaDetalhes(pokemon: pokemon),
+                      ),
+                    );
+                  },
+                ),
               );
             },
           );
