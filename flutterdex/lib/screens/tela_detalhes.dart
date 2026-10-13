@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
+import '../services/navegacao.dart';
+import '../services/sessao.dart';
 import '../models/pokemon.dart';
 
 class TelaDetalhes extends StatelessWidget {
@@ -78,7 +81,32 @@ class TelaDetalhes extends StatelessWidget {
     final cores = Theme.of(context).colorScheme;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Detalhes')),
+      appBar: AppBar(
+        title: const Text('Detalhes'),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            context.read<Navegacao>().voltar();
+          },
+        ),
+        actions: [
+          Consumer<Sessao>(
+            builder: (context, sessao, child) {
+              if (!sessao.logado) {
+                return const SizedBox.shrink();
+              }
+
+              final favorito = sessao.ehFavorito(pokemon.id);
+
+              return IconButton(
+                icon: Icon(favorito ? Icons.favorite : Icons.favorite_border),
+                tooltip: favorito ? 'Remover dos favoritos' : 'Favoritar',
+                onPressed: () => sessao.alternarFavorito(pokemon.id),
+              );
+            },
+          ),
+        ],
+      ),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
