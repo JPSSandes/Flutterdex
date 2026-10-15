@@ -25,7 +25,8 @@ de android disponível no Android Studio
 KDE Plasma Desktop), imagino que possa rodar o programa sem muitas complicações.
 Mas caso esteja utilizando outro sistema operacional e/ou der algum problema na
 execução, é recomendado apagar a pasta Android do projeto e depois rodar o seguinte
-comando: 
+comando:
+
 `flutter create --platform=android .`
 
 4. Por questões de simplicidade, só adicionei 23 espécies Pokémon no programa
